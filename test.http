@@ -1,0 +1,16 @@
+### Obtener todos los libros
+GET http://localhost:3000/libros
+
+###
+
+### Agregar un libro nuevo
+POST http://localhost:3000/libros
+Content-Type: application/json
+
+{
+  "id": 9,
+  "titulo": "El Alquimista",
+  "autor": "Paulo Coelho",
+  "genero": "Novela",
+  "paginas": 208
+}
